@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.aaghaffar.project;
+
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
+
+/**
+ * @author Amr Abdel-Ghaffar
+ *
+ */
+
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = ServiceContext.class)
+@ContextConfiguration
+public abstract class ServiceContextTest {
+
+}
