@@ -1,5 +1,6 @@
 # CarGrid
-This is a sample multi-module spring boot application, driven in a TDD methodology
+This is a sample multi-module spring boot application, driven in a TDD methodology.
+Cars are placed on a grid at particular co-ordinates heading north, and the simple commands Left, right and forward are transmitted to them. The commands must be executed and the final position calculated.
 # 1 Overview
 This is a test project for the sake of a Java technical interview. 
 This application resembles a very simple multi-moduled spring boot application, and to demonstrate TDD knowledge & skills. Simply the application represents a car grid (with configurable dimensions), upon which the user inputs current position (cartesian coordinates) and a set of navigation commands (R: Right, L: Left, F: Forward). Accordingly the application calculates the target position and returns it to the user.
